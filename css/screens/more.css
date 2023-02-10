@@ -1,0 +1,33 @@
+.more-screen .icon-row {
+    margin-top: 50px;
+    height: fit-content;
+}
+
+.icon-col {
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    height: 270px;
+
+}
+
+.icon-row__icon {
+    margin-bottom: 50px;
+    width: 100px;
+    height: 270px;
+}
+
+.more-suggestion {
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.more-suggestion__header__title {
+    padding: 30px 0px 0px 0px;
+    color: rgba(58, 43, 43, 0.5);
+    font-weight: 600;
+}
+
+.suggestion-icon__img {
+    width: 50px;
+    height: 50px;
+}

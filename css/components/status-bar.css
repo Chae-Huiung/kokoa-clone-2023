@@ -1,0 +1,39 @@
+.status-bar {
+    position: fixed;
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 5px 3px;
+}
+
+.status-bar {
+    padding: 5px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.status-bar div:first-child {
+    /* background-color: tomato; */
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.status-bar div:first-child span {
+    margin-right: 10px;
+}
+
+.status-bar div:nth-child(3) {
+    /* background-color: tomato; */
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.status-bar div:nth-child(3) span {
+    margin-left: 10px;
+}

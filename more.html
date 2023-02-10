@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More on KakaoTalk </title>
+</head>
+
+<body>
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <span><i class="fas fa-wifi"></i></span>
+        </div>
+
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>
+
+        <div class="status-bar__column">
+            <span>11%</span>
+            <span><i class="fas fa-battery-full fa-lg"></i></span>
+            <span><i class="fas fa-bolt"></i></span>
+        </div>
+    </div>
+
+    <header class="screen__header">
+        <h1 class="screen-header__title">More</h1>
+        <div class="screen-header__icons">
+            <span><i class="fas fa-search fa-lg"></i></span>
+            <span><i class="fas fa-play fa-lg"></i></span>
+            <span><i class="fas fa-cog fa-lg"></i></span>
+        </div>
+    </header>
+
+    <main class="friends-screen more-screen">
+        <div class="user-component">
+            <div class="user-component__column">
+                <img src="/screenshots/user-componenet__avatar.jpg"
+                    class="user-componenet__avatar user-componenet__avatar--xl" />
+                <div class="user-component__text">
+                    <h4 class="user-component__title">Wayne Chae</h4>
+                    <h6 class="user-component__subtitle">+82 10-7906-0722<i class="fas fa-exclamation-circle"></i></h6>
+                </div>
+            </div>
+            <div class="user-component__column">
+                <i class="far fa-file-alt fa-3x"></i>
+            </div>
+        </div>
+        <div class="icon-row">
+            <div class="icon-col">
+                <div class="icon-row__icon">
+                    <i class="far fa-calendar"></i><span>Calendar</span>
+                </div>
+                <div class="icon-row__icon">
+                    <i class="far fa-calendar"></i><span>Account</span>
+                </div>
+            </div>
+            <div class="icon-col">
+                <div class="icon-row__icon">
+                    <i class="far fa-smile"></i><span>Emotions</span>
+                </div>
+                <div class="icon-row__icon">
+                    <i class="far fa-smile"></i><span>OpenChat</span>
+                </div>
+            </div>
+            <div class="icon-col">
+                <div class="icon-row__icon">
+                    <i class="fas fa-paint-roller"></i><span>Themes</span>
+                </div>
+            </div>
+            <div class="icon-col">
+                <div class="icon-row__icon">
+                    <i class="fas fa-file-invoice-dollar"></i><span>Account</span>
+                </div>
+            </div>
+        </div>
+        <div class="more-suggestion">
+            <div class="more-suggestion__header">
+                <h4 class="more-suggestion__header__title">Suggestions</h4>
+            </div>
+
+            <div class="icon-row suggestion-icon-row">
+                <div class="icon-col">
+                    <div class="icon-row__icon">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAilBMVEX64QD////pyADlxADs4L3m16n21wD22QXXvV732wP43QL64gDfy4TuzwDfy4PgvgDUsQDx0gDz7NPcxnfZtgDl1Jz49OXduwDWuUni0JLoxgDaxH/t48TRtEjWvFrWulLUtT3YuCf18N38+/Xcw2fq3rTYujfSsRbm2KfTtUDRsSfj0pfx6c3bxHNVxTzyAAADNklEQVR4nO3aCXLaQBBAUS22Bg0IJAwIE+IN2+CF+18vGohdWYyaKlVq1JP/TpBfPZscoggAAAAAAAAAAAAAAAAAAAAAAABAG7NKu0nM0HdDu+Tb+qKL9XfjO0GQXMbdDDLfCQIKKaTQPwoppNA/Cimk0D8KKaTQPwoppNA/Cimk0D8KKaTQPwoppNA/Cimk0D8KKaTQPwoppNA/CkU3wRfeBv/70mXwhS/BF979B4V9/yV7x8LNfeiFi1nohQ91HnjhdBJ64ToNvXCe5L4TBF0LryrrO0HQtfAm9MLNfd8/LToXzvr+aIuSp06F00nvC4ub0dgZfU0qnCd9L7RZVbRYSoWPVd8vi8i0KcQZlqbvR2lk8tNMeiEELvp/0EQtgXleboTCp7T/hbZF9hrANmxjk2upcNv/bdjG1lMhsLkNVRdm99IIrwvli1S8K5aZ5sKhrR+EwIfaaC6MMvFB0yxSzdvQTsSvjmfVizTKt9J1P61Vn6RnXIbjQnWhEV9scZn3/8l2mk3FEe5Wqk/STNyF7pzRu0iHNt1JgWvdL7bqRQqMbyrNhflMenO7q0LvLhza1ZU4wkGluDCqxC/feDozis8ZU4prNL7VPMJ88iYGvtd6Rzi0yUAMjF8yvSO0hbwJ412qd4RRtV2IgZut4hGa8l0e4TgxVusITbmWAzXfFFkp/RnfedW6RodnBo4Sk6ssHNrsnD0Yv8+UBjbXxBmnaHOOujWqchfm6a34zesMCqWBphb/wH2wm2hdo8UZT7XGtMyVXoXWpOMzAhfuMaNzhNaYyRmJd1o3YSM/J/ExMUrXaOT+O19OHDVfFGpHGNkmMW9PnNeaA4+JrcfNrjZ6N+GBta0LdTczmdJj9NMhMT3xd8SnWa57jTr2OMUvE5sJNktUeWD0sRe/SHxze1D7BA9OLNRRMIEnprifBLAHP/09xc1yFc4EneMU95+B020RVuCfiZel+5oIKvC3xM2+bu55G1jgL4nT5+SwQkML/Dhu9vNZZhR/LrU6TDFJ3Us0uBX60yHRPdRCXKJH1v1UP3c/9vb9L/lnrDthws1zgp7fUeh9AAAAAAAAAAAAAAAAAPrgBz7yQ5khL1TXAAAAAElFTkSuQmCC"
+                            class="suggestion-icon__img" /><span>Kakao story</span>
+                    </div>
+                </div>
+                <div class="icon-col">
+                    <div class="icon-row__icon">
+                        <img src="data:image/png;base64,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"
+                            class="suggestion-icon__img" /><span>Kakaofriends</span>
+                    </div>
+                </div>
+                <div class="icon-col ">
+                    <div class="icon-row__icon">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJwwkLqDjoMMva3tZD6wJ4dMlpi_tuhSQEyQ&usqp=CAU"
+                            class="suggestion-icon__img" /><span>Friends Gem</span>
+                    </div>
+                </div>
+                <div class="icon-col ">
+                    <div class="icon-row__icon">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__btn"><a class="nav__link" href="friends.html"><i class="far fa-user fa-2x"></i></a></li>
+            <li class="nav__btn">
+                <span class="nav__notification">1</span>
+                <a class="nav__link" href="chats.html"><i class="far fa-comments fa-2x"></i></a>
+            </li>
+            <li class="nav__btn"><a class="nav__link" href="find.html"><i class="fas fa-search fa-2x"></i></a></li>
+            <li class="nav__btn">
+                <span class="ellipsis__notification"> </span>
+                <a class="nav__link" href="more.html"><i class="fas fa-ellipsis-h fa-2x"></i></a>
+            </li>
+        </ul>
+    </nav>
+
+    <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
